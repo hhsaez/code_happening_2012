@@ -1,0 +1,45 @@
+@font-face{
+	font-family:"Fireworks";
+	src: url("../fonts/ExitFontForAFilm.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: black;
+	overflow: hidden;
+}
+
+#background {
+	background-image: url("../images/background.jpg");	
+}
+
+#background, #overlay {
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#overlay {
+	z-index: 1000;
+	background-image: url("../images/overlay.png");
+}
+
+#month, div.topicFirework {
+	position: absolute;
+	z-index: 50;
+	opacity: 0.9;
+	font-family: "Fireworks";	
+}
+
+#month {
+	font-size: 50pt;
+	text-shadow: 0.1em 0.1em 0.1em white;
+	top: 60%;
+	color: white;
+}

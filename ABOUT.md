@@ -1,13 +1,12 @@
-_YOUR_APPLICATION_NAME_
-=======================
+2012 TT Fireworks Show
+======================
 
-This is a sample file you can edit to tell us more about your app and yourself. We encourage you to do so!. _You can just remove this lines or replace them with a proper "welcome" text_ 
+Whatch a fireworks show to walk you through the 2012 top Trending topics on twitter.
 
 ## About the application
 
-_add a simple description or your app, what does it do, which libraries uses, or any other thing you consider interesting to share_
+The app fetches the longest running trending topics for each week and organizes it by month. Then it displays them cronologically in a fireworks show.
 
 ## About the author
 
-_tell us a little bit about yourself, what do you do, what do you like, whatever you want to share_
-
+A standard nerd with a passion for everything that is related with programming, video games, science fiction or robotics. I spend most of my free time refactoring Crimild, my game engine project and personal obsession, hoping to reach a beta version some day.
